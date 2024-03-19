@@ -1,6 +1,6 @@
 #include "main.h"
 #include "button.h"
-
+Button btn;
 int main(void){
 	ButtInit(&btn, Button_Pin, Button_GPIO_Port, CLICK);
 	while(1){
